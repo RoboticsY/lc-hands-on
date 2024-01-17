@@ -12,6 +12,7 @@ RUN pip install -r requirements.txt
 # RUN pip install -U langchain
 # RUN pip install -U langchain-community
 # RUN pip install -U langchain-openai
+RUN pip install -U llama_index
 
 # アプリケーションコードをコンテナにコピー
 COPY . .

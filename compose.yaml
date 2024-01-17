@@ -8,5 +8,6 @@ services:
        OPENAI_API_KEY: ${OPENAI_API_KEY}
     #  command: python hello.py
     #  command: python 01_template.py
-     command: python 02_rag.py
+    #  command: python 02_rag.py
+     command: python 03_llama_index.py
       
